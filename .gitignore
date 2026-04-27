@@ -1,0 +1,43 @@
+# Altium Designer - Arquivos temporários e gerados
+
+# Histórico de versões do Altium
+History/
+
+# Previews gerados automaticamente
+__Previews/
+
+# Arquivos de backup
+*.Zip
+*.bak
+*.Bak
+
+# Arquivos de log
+*.log
+*.LOG
+
+# Arquivos temporários de projeto
+*.PcbDoc.htm
+*.SchDoc.htm
+*.Dat
+*.~*
+
+# Arquivos de status e cache
+Status Report.Txt
+*.PcbDoc_preview.png
+*.SchDoc_preview.png
+
+# Project Local Settings
+*.PrjPcbLocal
+
+# Arquivos de output (opcional - descomente se não quiser versionar)
+# Project Outputs for */
+# *.pdf
+# *.PDF
+
+# Arquivos temporários do Windows
+Thumbs.db
+Desktop.ini
+
+# Arquivos temporários de editores
+*.swp
+*~
