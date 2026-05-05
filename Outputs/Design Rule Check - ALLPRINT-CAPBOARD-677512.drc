@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\caiog\Meu Drive\SEGUNDO_CEREBRO\2_AREAS\TRABALHO\1_EP-tronix\Clientes\1_AQUINO_TECHNICAL_STUFF\Projetos\5_Allprint-Capboard\Desenvolvimento\allprint-capboard\ALLPRINT-CAPBOARD-677512.PcbDoc
-Date     : 27/04/2026
-Time     : 12:07:18
+PCB File : C:\Users\marco\Documents\projects\dextro\ALLPRINT-CAPBOARD\ALLPRINT-CAPBOARD-677512\ALLPRINT-CAPBOARD-677512.PcbDoc
+Date     : 05/05/2026
+Time     : 07:14:32
 
 Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
 Rule Violations :0
@@ -30,7 +30,7 @@ Rule Violations :0
 Processing Rule : Routing Via (MinHoleWidth=0.2mm) (MaxHoleWidth=0.4mm) (PreferredHoleWidth=0.2mm) (MinWidth=0.45mm) (MaxWidth=0.8mm) (PreferedWidth=0.45mm) (All)
 Rule Violations :0
 
-Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.127mm) (Max=0.4mm) (Prefered=0.4mm)  and Width Constraints (Min=0.024mm) (Max=0.184mm) (Prefered=0.184mm) (InDifferentialPairClass('DIFF120'))
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.127mm) (Max=0.4mm) (Prefered=0.4mm)  and Width Constraints (Min=0.024mm) (Max=0.184mm) (Prefered=0.182mm) (InDifferentialPairClass('DIFF120'))
 Rule Violations :0
 
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
@@ -57,10 +57,10 @@ Rule Violations :0
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
 Rule Violations :0
 
-Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
+Processing Rule : Board Clearance Constraint (Gap=0mm) (HasFootprint('MCFPL-10') or HasFootprint('STLZ950/3G-5.08-V') or HasFootprint('MCFPL-06') or HasFootprint('MCFPL-04') or HasFootprint('MCFPL-08') or HasFootprint('MCFPL-12') or HasFootprint('PEMC1-02') or HasFootprint('PEMC1-04'))
 Rule Violations :0
 
-Processing Rule : Board Clearance Constraint (Gap=0mm) (HasFootprint('MCFPL-10') or HasFootprint('STLZ950/3G-5.08-V') or HasFootprint('MCFPL-06') or HasFootprint('MCFPL-04') or HasFootprint('MCFPL-08') or HasFootprint('MCFPL-12') or HasFootprint('PEMC1-02') or HasFootprint('PEMC1-04'))
+Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
 Rule Violations :0
 
 Processing Rule : Matched Lengths(Tolerance=1mm) (InNetClass('SPI'))
@@ -78,4 +78,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:07
+Time Elapsed        : 00:00:01
